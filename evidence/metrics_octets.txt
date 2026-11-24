@@ -1,0 +1,21 @@
+# HELP gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_in_octets gNMIc generated metric
+# TYPE gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_in_octets untyped
+gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_in_octets{interface_name="ethernet-1/1",source="172.20.20.3:57400",subscription_name="interface-stats"} 595860 1795507929262
+gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_in_octets{interface_name="ethernet-1/1",source="172.20.20.5:57400",subscription_name="interface-stats"} 596064 1795507929268
+gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_in_octets{interface_name="ethernet-1/2",source="172.20.20.3:57400",subscription_name="interface-stats"} 1.1781593174e+10 1795507929262
+gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_in_octets{interface_name="mgmt0",source="172.20.20.3:57400",subscription_name="interface-stats"} 1.4402242e+07 1795507929262
+gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_in_octets{interface_name="mgmt0",source="172.20.20.5:57400",subscription_name="interface-stats"} 1.3257397e+07 1795507929269
+# HELP gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_out_mirror_octets gNMIc generated metric
+# TYPE gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_out_mirror_octets untyped
+gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_out_mirror_octets{interface_name="ethernet-1/1",source="172.20.20.3:57400",subscription_name="interface-stats"} 0 1795507929262
+gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_out_mirror_octets{interface_name="ethernet-1/1",source="172.20.20.5:57400",subscription_name="interface-stats"} 0 1795507929268
+gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_out_mirror_octets{interface_name="ethernet-1/2",source="172.20.20.3:57400",subscription_name="interface-stats"} 0 1795507929262
+gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_out_mirror_octets{interface_name="mgmt0",source="172.20.20.3:57400",subscription_name="interface-stats"} 0 1795507929262
+gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_out_mirror_octets{interface_name="mgmt0",source="172.20.20.5:57400",subscription_name="interface-stats"} 0 1795507929269
+# HELP gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_out_octets gNMIc generated metric
+# TYPE gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_out_octets untyped
+gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_out_octets{interface_name="ethernet-1/1",source="172.20.20.3:57400",subscription_name="interface-stats"} 593844 1795507929262
+gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_out_octets{interface_name="ethernet-1/1",source="172.20.20.5:57400",subscription_name="interface-stats"} 593844 1795507929268
+gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_out_octets{interface_name="ethernet-1/2",source="172.20.20.3:57400",subscription_name="interface-stats"} 1.1782184914e+10 1795507929262
+gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_out_octets{interface_name="mgmt0",source="172.20.20.3:57400",subscription_name="interface-stats"} 1.34373487e+08 1795507929262
+gnmic_interface_stats_srl_nokia_interfaces_interface_statistics_out_octets{interface_name="mgmt0",source="172.20.20.5:57400",subscription_name="interface-stats"} 1.18209516e+08 1795507929269

@@ -1,0 +1,17 @@
+name: telemetry
+
+topology:
+  nodes:
+    srl1:
+      kind: nokia_srlinux
+      image: ghcr.io/nokia/srlinux:latest
+    srl2:
+      kind: nokia_srlinux
+      image: ghcr.io/nokia/srlinux:latest
+    h1:
+      kind: linux
+      image: nicolaka/netshoot:latest
+
+  links:
+    - endpoints: ["srl1:e1-1", "srl2:e1-1"]
+    - endpoints: ["h1:eth1", "srl1:e1-2"]
